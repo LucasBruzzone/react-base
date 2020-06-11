@@ -1,17 +1,17 @@
 import { fromJS } from 'immutable';
 
 import {
-  EXAMPLE_ACTION,
-} from '../actions/contants.js';
+  SET_EXAMPLE_DATA,
+} from '../actions/constants';
 
 export const initialState = fromJS({
-  exampleData: {},
+  exampleData: 'Change value',
 });
 
 function appReducer(state = initialState, action) {
   switch (action.type) {
-  case EXAMPLE_ACTION:
-    return state.set('userData', action.userData);
+  case SET_EXAMPLE_DATA:
+    return state.set('exampleData', action.payload);
   default:
     return state;
   }

@@ -1,0 +1,24 @@
+.homepage {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__button {
+    margin-top: 200px;
+    height: 40px;
+    width: 200px;
+    border-radius: 12px;
+    border: none;
+    background-color: #5fdccb;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+
+    &:focus { outline: none; }
+    &:hover { background-color: #7fdccf; }
+  }
+}
