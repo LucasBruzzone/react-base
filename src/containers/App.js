@@ -1,16 +1,16 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 
-import store from '../redux/store';
+import Routes from '../routes';
 
-import HomePage from './Homepage';
+import store from '../redux/store';
 
 import './App.css';
 
 const App = () => (
   <Provider store={store}>
     <div className="App">
-      <HomePage />
+      <Routes />
     </div>
   </Provider>
 );
