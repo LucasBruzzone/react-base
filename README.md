@@ -1,5 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Js boilerplate
+Simple React Js boilerplate to start new projects.
 
+**React version:** 16.13.1  
+
+## Libraries which are includeded
+* redux
+* redux-saga
+* prop-types
+* eslint
+* axios
+* react-router-dom
+
+### redux
+Redux is a predictable state container for JavaScript apps. It helps you write applications that behave consistently, run in different environments and are easy to test.  
+
+**Version:** 4.0.5  
+**Links:**
+* https://github.com/reduxjs/redux
+* https://github.com/reduxjs/react-redux
+
+### prop-types
+Runtime type checking for React props and similar objects.
+
+**Version:** 15.7.2  
+**Link:** https://github.com/facebook/prop-types
+
+### eslint
+ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+
+**Version:** 7.2.0
+**Link:** https://github.com/eslint/eslint
+
+### axios
+Promise-based HTTP client. Easy to send asynchronous HTTP request to REST endpoints and perform CRUD operations.
+You can also use it with a **axios-case-converter**. This library is an axios transformer/interceptor that converts snake_case/camelCase.
+
+**Version:** 0.19.2
+**Link:** https://github.com/axios/axios
+
+### react-router-dom
+The router components for websites.
+
+**Version:** 5.2.0
+**Link:** https://github.com/ReactTraining/react-router
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,32 +80,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
